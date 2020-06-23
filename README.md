@@ -19,8 +19,8 @@
   * `image_processing`
 
     ```bash
-		# To enable variants (Transforming Images)
-		gem 'image_processing'
+    # To enable variants (Transforming Images)
+    gem 'image_processing'
     ```
 
 * jQuery
