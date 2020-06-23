@@ -111,6 +111,8 @@
     * Actually, this is kind of dangerous if use this in Rich HTML (WYSIWYG)
       * Sometimes we need to change `secret_key_base` if it's hacked. But after doing this all images might not be available due to changed SGID
         * Which means Active Storage is not OK for embedded files, images into articles.
+  * Change SGID expires in
+    * https://stackoverflow.com/questions/52571555/how-do-you-change-the-active-storage-service-url-expires-in-timeout
   * Active Text
     * Default expired after nil minutes (unlimited)
       * `expires_in: nil`
