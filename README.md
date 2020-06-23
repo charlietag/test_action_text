@@ -15,6 +15,14 @@
   * gem 'pry-rails', :group => :development
   * gem 'bullet', group: 'development'
 
+* Gems - for **active storage image variant**
+  * `image_processing`
+
+    ```bash
+		# To enable variants (Transforming Images)
+		gem 'image_processing'
+    ```
+
 * jQuery
   * yarn add jquery
     * {project_name}/app/javascript/packs/application.js
