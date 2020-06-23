@@ -17,7 +17,7 @@
 
 * jQuery
   * yarn add jquery
-    * test_active_storage_preview/app/javascript/packs/application.js
+    * {project_name}/app/javascript/packs/application.js
 
       ```bash
       import "jquery/src/jquery"
@@ -86,7 +86,7 @@
 
 ## Changes
 * Basic config and setup
-  * https://github.com/charlietag/test_active_storage_preview/compare/v0.0.0...v0.0.1
+  * https://github.com/charlietag/test_action_text/compare/v0.0.0...v0.0.1
 * Start to try
-  * https://github.com/charlietag/test_active_storage_preview/compare/v0.0.1...master
+  * https://github.com/charlietag/test_action_text/compare/v0.0.1...master
 
