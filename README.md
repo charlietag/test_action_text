@@ -90,3 +90,22 @@
 * Start to try
   * https://github.com/charlietag/test_action_text/compare/v0.0.1...master
 
+
+## Note
+* This is cool, Action Text helps you to deal with all attached file actions of add / delete. No matter what you do with uploaded file. Trix will detect and do with the related actions.
+* SGID (Signed Global ID)
+  * **Be aware**
+    * Be sure the following is kept safely
+      * **master.key** + **credentials.yml.enc**
+        * **secret_key_base**
+    * Once one of above is gone
+      * All SGID (uploaded file , images links would no longer be available)
+    * Actually, this is kind of dangerous if use this in Rich HTML (WYSIWYG)
+      * Sometimes we need to change `secret_key_base` if it's hacked. But after doing this all images might not be available due to changed SGID
+        * Which means Active Storage is not OK for embedded files, images into articles.
+  * Active Text
+    * Default expired after nil minutes (unlimited)
+      * `expires_in: nil`
+  * Active Storage
+    * Default expired after 5 minutes
+      * `expires_in: 5.minutes`
